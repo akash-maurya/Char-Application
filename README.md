@@ -11,6 +11,7 @@ To run this on your local computer you need to do -
   now run 'nodemon Server.js' to run the server 
   
   open localhost:3000 in chrome .
-  open at least two tabs to its funtionality 
+  
+  open at least two tabs to see its funtionality 
    
 
