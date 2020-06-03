@@ -1,0 +1,79 @@
+
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+
+       body{
+            height: 100vh;
+            background-image: linear-gradient(rgb(255, 255, 255) , rgb(94, 94, 206));
+            text-align: center;
+       }
+
+      .logo{
+           height: 70px;
+           width: 70px;
+           margin: auto;
+           display: block;
+      }
+      h3{
+           margin: 5px;
+      }
+      .container{
+           background-image:linear-gradient(  rgb(255, 255, 255),  rgb(182, 109, 158));
+           display: block ;
+           margin: auto;
+           max-width: 950px;
+           height: 70vh;
+           box-shadow: 5px 5px 18px black;
+           overflow-y: scroll;
+      }
+
+      .mssg{
+           background-color:grey ;
+           border: 2px  solid rgb(255, 255, 255);
+           box-shadow: 1px 1px 10px rgb(0, 0, 0);
+           border-radius: 7px;
+           width: 24%;
+           margin:8px ;
+           padding: 5px;
+           white-space: pre-wrap;
+           word-wrap: break-word;
+      }
+
+      .right{
+           float: right;
+           clear: both ;
+      }
+
+
+      .left{
+           float: left;
+           clear: both;
+      }
+
+      #send-container {
+          display: block;
+          margin: auto;
+          max-width: 980px;
+          text-align: center;
+          width: 100%;
+      }
+       #massageInp{
+            width: 92%;
+            border: 2px  solid black;
+            height: 34px;
+            margin-top: 20px;
+            box-shadow: 5px 5px 15px black;
+            border-radius: 8px;
+          }
+
+            .btn{
+            width: 40px;
+            height: 33px;
+            border-radius: 6px;
+            margin-top: 20px;
+            box-shadow: 5px 5px 15px black;
+       }
+
+       .icon{
+            font-size: 20px;
+            color : red;
+       }
